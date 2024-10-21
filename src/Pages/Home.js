@@ -24,6 +24,15 @@ export default function Home() {
      
      /> 
       <Text style={styles.tituloInfo}>Nossos Produtos</Text>
+      <Text style={styles.tituloInfo}>Mais Infos</Text>
+      <Card
+     title="Json Informação"
+     content="Clique abaixo para saber mais sobre JSON"
+     buttonText="Ir para JSON"
+     onPress={() => navigation.navigate('Info')}
+     
+     /> 
+      <Text style={styles.tituloInfo}>Nossos Produtos</Text>
       <Card
      title="Produtos"
      content="Clique abaixo para saber mais sobres os nossos produtos"
